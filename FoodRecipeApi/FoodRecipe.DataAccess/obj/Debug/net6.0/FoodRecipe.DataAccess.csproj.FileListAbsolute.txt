@@ -1,0 +1,12 @@
+C:\FoodRecipeApi\FoodRecipe.DataAccess\bin\Debug\net6.0\FoodRecipe.DataAccess.deps.json
+C:\FoodRecipeApi\FoodRecipe.DataAccess\bin\Debug\net6.0\FoodRecipe.DataAccess.dll
+C:\FoodRecipeApi\FoodRecipe.DataAccess\bin\Debug\net6.0\FoodRecipe.DataAccess.pdb
+C:\FoodRecipeApi\FoodRecipe.DataAccess\obj\Debug\net6.0\FoodRecipe.DataAccess.csproj.AssemblyReference.cache
+C:\FoodRecipeApi\FoodRecipe.DataAccess\obj\Debug\net6.0\FoodRecipe.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\FoodRecipeApi\FoodRecipe.DataAccess\obj\Debug\net6.0\FoodRecipe.DataAccess.AssemblyInfoInputs.cache
+C:\FoodRecipeApi\FoodRecipe.DataAccess\obj\Debug\net6.0\FoodRecipe.DataAccess.AssemblyInfo.cs
+C:\FoodRecipeApi\FoodRecipe.DataAccess\obj\Debug\net6.0\FoodRecipe.DataAccess.csproj.CoreCompileInputs.cache
+C:\FoodRecipeApi\FoodRecipe.DataAccess\obj\Debug\net6.0\FoodRecipe.DataAccess.dll
+C:\FoodRecipeApi\FoodRecipe.DataAccess\obj\Debug\net6.0\refint\FoodRecipe.DataAccess.dll
+C:\FoodRecipeApi\FoodRecipe.DataAccess\obj\Debug\net6.0\FoodRecipe.DataAccess.pdb
+C:\FoodRecipeApi\FoodRecipe.DataAccess\obj\Debug\net6.0\ref\FoodRecipe.DataAccess.dll

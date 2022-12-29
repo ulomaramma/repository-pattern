@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodRecipeApi", "FoodRecipeApi.csproj", "{914AA81A-7DE3-49E2-845E-36CA0364F3DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodRecipe.DataAccess", "..\FoodRecipe.DataAccess\FoodRecipe.DataAccess.csproj", "{F52C9F9E-3949-4AD1-A37D-A0022BE42418}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{914AA81A-7DE3-49E2-845E-36CA0364F3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914AA81A-7DE3-49E2-845E-36CA0364F3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914AA81A-7DE3-49E2-845E-36CA0364F3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914AA81A-7DE3-49E2-845E-36CA0364F3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52C9F9E-3949-4AD1-A37D-A0022BE42418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52C9F9E-3949-4AD1-A37D-A0022BE42418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52C9F9E-3949-4AD1-A37D-A0022BE42418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52C9F9E-3949-4AD1-A37D-A0022BE42418}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9CFD0A7-D297-4FF7-AA6B-CAE4CAD571CE}
+	EndGlobalSection
+EndGlobal
