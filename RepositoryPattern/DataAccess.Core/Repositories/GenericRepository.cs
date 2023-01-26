@@ -50,20 +50,13 @@ namespace DataAccess.Core.Repositories
             _entities.Remove(entity);
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="entities"></param>
+       
         public void RemoveRange(IEnumerable<T> entities)
         {
             _entities.RemoveRange(entities);
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="expression"></param>
-        /// <returns></returns>
+       
         public IEnumerable<T> Find(Expression<Func<T, bool>> expression)
         {
             return _entities.Where(expression);
