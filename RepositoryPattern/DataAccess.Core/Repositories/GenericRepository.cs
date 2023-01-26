@@ -74,11 +74,7 @@ namespace DataAccess.Core.Repositories
             return _entities.ToList();
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+       
         public T GetById(int id)
         {
             return _entities.Find(id);
