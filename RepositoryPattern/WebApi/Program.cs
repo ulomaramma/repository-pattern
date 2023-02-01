@@ -16,7 +16,7 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 });
 
 
-//
+
 builder.Services.AddTransient<INutrientRepository, NutrientRepository>();
 builder.Services.AddTransient<INutritionRepository, NutritionRepository>();
 builder.Services.AddTransient<IRecipeCategoryRepository, RecipeCategoryRepository>();
@@ -37,7 +37,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Repository API V1"));
 }
 app.UseHttpsRedirection();
 
