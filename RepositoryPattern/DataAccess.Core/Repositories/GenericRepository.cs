@@ -21,10 +21,7 @@ namespace DataAccess.Core.Repositories
             _entities = _dbContext.Set<T>();
 
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="entity"></param>
+   
         public void Add(T entity)
         {
             _entities.Add(entity);
