@@ -32,19 +32,13 @@ namespace DataAccess.Core.Repositories
 
 
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="entities"></param>
+       
         public void AddRange(IEnumerable<T> entities)
         {
             _entities.AddRange(entities);
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="entity"></param>
+       
         public void Remove(T entity)
         {
             _entities.Remove(entity);
