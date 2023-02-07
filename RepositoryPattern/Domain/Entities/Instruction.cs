@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace FoodRecipe.DataAccess.Data.Entities
+namespace Domain.Entities
 {
     public class Instruction : FullAuditInfo
     {

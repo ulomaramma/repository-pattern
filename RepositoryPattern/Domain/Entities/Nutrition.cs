@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FoodRecipe.DataAccess.Data.Entities
+namespace Domain.Entities
 {
     public class Nutrition: FullAuditInfo
     {
