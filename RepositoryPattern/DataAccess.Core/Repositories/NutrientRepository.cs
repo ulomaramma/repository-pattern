@@ -10,6 +10,11 @@ namespace DataAccess.Core.Repositories
 {
     public class NutrientRepository : GenericRepository<Nutrient>, INutrientRepository
     {
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="dbContext"></param>
         public NutrientRepository(ApplicationDBContext dbContext) : base(dbContext)
         {
         }
