@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface INutrionRepository: IGenerericRepository<Nutrition>
+    public interface IRecipeCategoryRepository: IGenerericRepository<RecipeCategory>
     {
     }
 }
