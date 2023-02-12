@@ -32,6 +32,11 @@ namespace WebApi.Controllers
             return CreatedAtAction(nameof(GetRecipe), new { id = recipe.Id }, recipe);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
       
         [HttpGet("{id}")]
         public IActionResult GetRecipe(int id)
