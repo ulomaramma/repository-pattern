@@ -13,6 +13,11 @@ namespace WebApi.Services
             _unitOfWork = unitOfWork;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         public Recipe AddRecipe(RecipeRequest request)
         {
             var recipe = new Recipe
