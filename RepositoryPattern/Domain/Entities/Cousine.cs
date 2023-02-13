@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Cousine: FullAuditInfo
+    public class Cousine
     {
         public int Id { get; set; }
         public string Name { get; set; }

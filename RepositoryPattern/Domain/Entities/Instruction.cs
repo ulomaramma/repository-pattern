@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace Domain.Entities
 {
-    public class Instruction : FullAuditInfo
+    public class Instruction 
     {
         public int Id { get; set; }
 

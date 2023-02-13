@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Nutrient:FullAuditInfo
+    public class Nutrient
     {
         public int Id { get; set; }
         public string Name { get; set; }

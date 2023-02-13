@@ -24,6 +24,8 @@ namespace DataAccess.Core.UnitOfWorks
         public INutrientRepository nutrientRepository;
         public IIngredientRepository ingredientsRepository;
         public INutritionRepository nutritionRepository;
+        public ICousineRepository cousineRepository;
+        public IDietRepository dietRepository;
         public IRecipeRepository RecipeRepository
         {
             get
@@ -90,10 +92,35 @@ namespace DataAccess.Core.UnitOfWorks
             }
         }
 
+        public ICousineRepository CousineRepository
+        {
+            get
+            {
+                if (this.cousineRepository == null)
+                {
+                    this.cousineRepository = new CousineRepository(this._dbContext);
+                }
+
+                return this.cousineRepository;
+            }
+        }
+
+        public IDietRepository DietRepository
+        {
+            get
+            {
+                if (this.dietRepository == null)
+                {
+                    this.dietRepository = new DietRepository(this._dbContext);
+                }
+
+                return this.dietRepository;
+            }
+        }
 
         public int Complete()
         {
-            throw new NotImplementedException();
+            return _dbContext.SaveChanges();
         }
     }
 }
