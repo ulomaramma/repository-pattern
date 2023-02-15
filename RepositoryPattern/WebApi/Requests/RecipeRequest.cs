@@ -1,5 +1,8 @@
 ﻿namespace WebApi.Requests
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class RecipeRequest
     {
         public string Name { get; set; }
