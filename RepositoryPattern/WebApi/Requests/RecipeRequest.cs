@@ -1,6 +1,6 @@
 ﻿namespace WebApi.Requests
 {
-    /// <summary>
+    /// <ummary>
     /// 
     /// </summary>
     public class RecipeRequest
