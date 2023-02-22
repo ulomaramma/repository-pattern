@@ -8,9 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Core.Repositories
 {
-    /// <summary>
-    /// 
-    /// </summary>
+    
     public class NutritionRepository : GenericRepository<Nutrition>, INutritionRepository
     {
         public NutritionRepository(ApplicationDBContext dbContext) : base(dbContext)
