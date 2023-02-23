@@ -13,7 +13,11 @@ namespace WebApi.Controllers
         {
             _recipeService = recipeService;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
      
         [HttpPost]
         public IActionResult PostRecipe([FromBody] RecipeRequest request)
@@ -29,7 +33,11 @@ namespace WebApi.Controllers
         }
 
        
-      
+      /// <summary>
+      /// 
+      /// </summary>
+      /// <param name="id"></param>
+      /// <returns></returns>
         [HttpGet("{id}")]
         public IActionResult GetRecipe(int id)
         {
