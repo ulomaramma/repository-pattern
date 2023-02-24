@@ -16,6 +16,7 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 });
 
 
+//
 builder.Services.AddTransient<INutrientRepository, NutrientRepository>();
 builder.Services.AddTransient<INutritionRepository, NutritionRepository>();
 builder.Services.AddTransient<IRecipeCategoryRepository, RecipeCategoryRepository>();
@@ -38,7 +39,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
