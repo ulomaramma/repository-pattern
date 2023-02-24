@@ -4,6 +4,9 @@
 
 namespace FoodRecipe.DataAccess.Migrations
 {
+    /// <summary>
+    /// /
+    /// </summary>
     public partial class SeeData : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
