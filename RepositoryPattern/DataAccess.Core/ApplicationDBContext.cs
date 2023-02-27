@@ -29,6 +29,25 @@ namespace DataAccess.Core
 
         public DbSet<RecipeCategory> RecipeCategories { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
 
+            modelBuilder.Entity<Cousine>().HasData(
+            new Cousine { Id = 1, Name = "Italian" },
+            new Cousine { Id = 2, Name = "Mexican" }
+           );
+
+            modelBuilder.Entity<RecipeCategory>().HasData(
+            new RecipeCategory { Id = 1, Name = "Dessert" },
+            new RecipeCategory { Id = 2, Name = "Main Course" }
+           );
+
+            modelBuilder.Entity<Diet>().HasData(
+                new Diet { Id = 1, Name = "Vegan" },
+                new Diet { Id = 2, Name = "Ketogenic" }
+           );
+            
+        }
     }
 }

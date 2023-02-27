@@ -3,6 +3,7 @@ using DataAccess.Core.Repositories;
 using DataAccess.Core.UnitOfWorks;
 using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using WebApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,7 @@ builder.Services.AddTransient<IRecipeCategoryRepository, RecipeCategoryRepositor
 builder.Services.AddTransient<IRecipeRepository, RecipeRepository>();
 builder.Services.AddTransient<IIngredientRepository, IngredientRepository>();
 builder.Services.AddTransient<IUnitOfWork,UnitOfWork>();
+builder.Services.AddScoped<RecipeService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
