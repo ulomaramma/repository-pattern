@@ -1,5 +1,21 @@
-version: "3.7"
+version: '3.8'
+
 services:
-  clean-architecture:
-    volumes:
-      - .:/var/www/html:cached
+  webapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - database
+
+  database:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "YourStrong!Password"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
