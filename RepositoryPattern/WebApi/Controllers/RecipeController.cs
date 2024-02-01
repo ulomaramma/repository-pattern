@@ -15,7 +15,7 @@ namespace WebApi.Controllers
         }
 
         /// <summary>
-        /// 
+        /// Post recipe
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
