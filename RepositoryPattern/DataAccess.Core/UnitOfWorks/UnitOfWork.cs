@@ -18,7 +18,7 @@ namespace DataAccess.Core.UnitOfWorks
             _dbContext = dbContext;
 
         }
-
+       
         public IRecipeRepository recipeRepository;
         public IRecipeCategoryRepository recipeCategoryRepository;
         public INutrientRepository nutrientRepository;
@@ -52,7 +52,9 @@ namespace DataAccess.Core.UnitOfWorks
                 return this.recipeCategoryRepository;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
         public INutrientRepository NutrientRepository
         {
             get
