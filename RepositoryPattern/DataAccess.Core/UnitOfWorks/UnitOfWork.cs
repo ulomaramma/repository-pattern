@@ -39,6 +39,9 @@ namespace DataAccess.Core.UnitOfWorks
             }
         }
 
+        /// <summary>
+        /// /
+        /// </summary>
 
         public IRecipeCategoryRepository RecipeCategoryRepository
         {
@@ -53,7 +56,7 @@ namespace DataAccess.Core.UnitOfWorks
             }
         }
         /// <summary>
-        /// 
+        /// Nitrient repo
         /// </summary>
         public INutrientRepository NutrientRepository
         {
