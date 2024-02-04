@@ -29,6 +29,10 @@ namespace DataAccess.Core
 
         public DbSet<RecipeCategory> RecipeCategories { get; set; }
 
+        /// <summary>
+        /// Added to seed to Database
+        /// </summary>
+        /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
