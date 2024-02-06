@@ -14,6 +14,10 @@ namespace DataAccess.Core.Repositories
         protected readonly ApplicationDBContext _dbContext;
         private DbSet<T> _entities;
 
+        /// <summary>
+        /// Inject DB conext 
+        /// </summary>
+        /// <param name="dbContext"></param>
         public GenericRepository(ApplicationDBContext dbContext)
         {
             _dbContext = dbContext;
