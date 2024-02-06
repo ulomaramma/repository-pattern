@@ -10,10 +10,7 @@ namespace DataAccess.Core.Repositories
 {
     public class CousineRepository : GenericRepository<Cousine>, ICousineRepository
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="dbContext"></param>
+   
         public CousineRepository(ApplicationDBContext dbContext) : base(dbContext)
         {
         }
