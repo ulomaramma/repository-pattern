@@ -19,9 +19,9 @@ namespace DataAccess.Core
 
         public DbSet<Instruction> Instructions { get; set; }
 
-        public DbSet<Ingredients> Ingredients { get; set; }
+        public DbSet<Ingredient> Ingredients { get; set; }
 
-        public DbSet<Nutrients> Nutrients { get; set; }
+        public DbSet<Nutrient> Nutrients { get; set; }
 
         public DbSet<Nutrition> Nutritions { get; set; }
 

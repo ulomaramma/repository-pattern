@@ -30,12 +30,12 @@ namespace DataAccess.Core.Repositories
             _entities.AddRange(entities);
         }
 
-        public void Delete(T entity)
+        public void Remove(T entity)
         {
             _entities.Remove(entity);
         }
 
-        public void DeleteRange(IEnumerable<T> entities)
+        public void RemoveRange(IEnumerable<T> entities)
         {
             _entities.RemoveRange(entities);
         }

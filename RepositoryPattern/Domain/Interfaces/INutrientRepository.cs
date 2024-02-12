@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface INutrientRepository:IGenerericRepository<Nutrients>
+    public interface INutrientRepository:IGenerericRepository<Nutrient>
     {
            
     }

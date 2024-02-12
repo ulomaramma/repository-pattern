@@ -14,8 +14,8 @@ namespace Domain.Interfaces
         IEnumerable<T> Find(Expression<Func<T, bool>> expression);
         void Add(T entity);
         void AddRange(IEnumerable<T> entities);
-        void Delete(T entity);
-        void DeleteRange(IEnumerable<T> entities);
+        void Remove(T entity);
+        void RemoveRange(IEnumerable<T> entities);
 
     }
 }

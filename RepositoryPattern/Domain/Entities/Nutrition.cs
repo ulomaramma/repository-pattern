@@ -15,7 +15,7 @@ namespace Domain.Entities
         public int Percentage { get; set; }
         public int RecipeId { get; set; }
         public Recipe Recipe { get; set; }
-        public ICollection<Nutrients>  Nutrients { get; set; }
+        public ICollection<Nutrient>  Nutrients { get; set; }
 
     }
 }

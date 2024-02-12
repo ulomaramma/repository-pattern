@@ -12,7 +12,7 @@ namespace Domain.Interfaces
         IRecipeCategoryRepository RecipeCategoryRepository { get; }
         INutrientRepository NutrientRepository { get; }
         INutritionRepository NutritionRepository { get; }
-        IIngredientsRepository IngredientsRepository { get; }
+        IIngredientRepository IngredientRepository { get; }
         int Complete();
     }
 }

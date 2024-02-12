@@ -34,7 +34,7 @@ namespace Domain.Entities
         public Cousine Cousine { get; set; }
         public ICollection<Nutrition> Nutritions { get; set; }
         public ICollection<Instruction> Instructions { get; set; }
-        public ICollection<Ingredients> Ingredients { get; set; }
+        public ICollection<Ingredient> Ingredients { get; set; }
 
     }
 }
