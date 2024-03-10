@@ -34,7 +34,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourUsername/repository-pattern-uow-guide.git
+   git clone https://github.com/ulomaramma/repository-pattern
 
 2. Navigate to the project directory:
    ```bash
