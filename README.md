@@ -77,8 +77,6 @@ The Generic Repository implemented in this guide abstracts away the specifics of
 
 ---
 
-This section provides a high-level understanding of the Repository Pattern and Unit of Work within the context of this guide, including a glimpse into the project's structure for better comprehension and navigation. For detailed implementation steps and code examples, refer to the subsequent sections of this README.
-
 
 ## Configuring Database Connection
 
