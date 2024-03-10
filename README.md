@@ -46,6 +46,40 @@ Before you begin, ensure you have the following installed:
 
 ## Understanding Repository Pattern and Unit of Work
 
+The Repository Pattern and Unit of Work are key design patterns used in application development to separate the data access logic and business logic from the rest of the application. This guide implements these patterns using a Generic Repository, which provides a flexible and reusable way to access data across the application.
+
+### Overview of Repository Pattern
+
+![Overview of Repository Pattern](https://github.com/ulomaramma/repository-pattern/assets/26364572/c66489e2-c0f7-4c0c-9acb-10c16824ede6)
+
+
+*Figure 1: Overview of the Repository Pattern*
+
+The above diagram illustrates the basic structure and components involved in the Repository Pattern. The use of a Generic Repository ensures that common data operations (such as CRUD operations) are abstracted, thereby promoting code reusability and maintainability.
+
+### Project Structure
+
+This guide's project is structured into three main projects to separate concerns and ensure a clean architecture:
+
+- **DataAccess.Core**: Contains the repository and unit of work, alongside db context and migration classes.
+- **Domain**: This project houses the domain entities (models) used throughout the application.
+- **WebAPI**: The entry point of the application, this project references both the DataAccess.Core and Domain projects to serve data through a RESTful API.
+
+<img width="546" alt="image" src="https://github.com/ulomaramma/repository-pattern/assets/26364572/ca641665-a5af-4b90-94c1-39bd5249aa52">
+
+*Figure 2: Project Structure in Visual Studio*
+
+As depicted in Figure 2, the solution is organized to clearly separate the different aspects of the application, making it easier for developers to navigate and maintain the codebase.
+
+### Implementation with Generic Repository
+
+The Generic Repository implemented in this guide abstracts away the specifics of the data access layer. By using interfaces defined in the DataAccess.Core project, it allows for more flexible data operations that can work with any entity type. This approach not only simplifies the codebase but also enhances its extensibility for future development.
+
+---
+
+This section provides a high-level understanding of the Repository Pattern and Unit of Work within the context of this guide, including a glimpse into the project's structure for better comprehension and navigation. For detailed implementation steps and code examples, refer to the subsequent sections of this README.
+
+
 ## Configuring Database Connection
 
 To integrate the Repository Pattern and Unit of Work with your data management, you'll need to configure your database connection. This can be configured in your ppsettings.json file with the following connection string:
