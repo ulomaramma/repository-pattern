@@ -1,8 +1,10 @@
 # Repository Pattern with Unit of Work Guide for ASP.NET Core Web API
 
-Welcome to the Repository Pattern with Unit of Work Guide for developers. This guide aims to provide a comprehensive starting point for implementing these patterns in your projects, enhancing code maintainability, and promoting best practices in software development.
+Welcome to the ASP.Net Core Repository Pattern starter project for developers. This project aims to provide a comprehensive starting point for implementing repository patterns with Unit of Work in your projects, enhancing code maintainability, and promoting best practices in software development.
 
-If you find this guide useful, please consider giving it a star on GitHub to help others discover it!
+# Give it a Star !!!⭐
+If you find this project useful helpful in implementing Repository pattern in your ASP.NET Core project, please giving it a star on GitHub to help others developers discover it!
+
 
 ## Table of Contents
 1. [Introduction to Repository Pattern and Unit of Work](#introduction-to-repository-pattern-and-unit-of-work)
@@ -25,6 +27,7 @@ This section introduces the Repository Pattern and Unit of Work, explaining thei
 Before you begin, ensure you have the following installed:
 - [.NET SDK](https://dotnet.microsoft.com/download) (Version X.X or later)
 - An IDE of your choice (e.g., [Visual Studio](https://visualstudio.microsoft.com/), [VS Code](https://code.visualstudio.com/))
+- Basic Understanding of ASP.NET Core Web API concepts
 
 ### Installation
 
