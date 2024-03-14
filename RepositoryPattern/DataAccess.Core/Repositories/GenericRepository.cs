@@ -14,26 +14,37 @@ namespace DataAccess.Core.Repositories
         protected readonly ApplicationDBContext _dbContext;
         private DbSet<T> _entities;
 
-        /// <summary>
-        /// Inject DB conext 
-        /// </summary>
-        /// <param name="dbContext"></param>
+       
         public GenericRepository(ApplicationDBContext dbContext)
         {
             _dbContext = dbContext;
             _entities = _dbContext.Set<T>();
 
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="entity"></param>
         public void Add(T entity)
         {
             _entities.Add(entity);
         }
 
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="entities"></param>
         public void AddRange(IEnumerable<T> entities)
         {
             _entities.AddRange(entities);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="entity"></param>
         public void Remove(T entity)
         {
             _entities.Remove(entity);
